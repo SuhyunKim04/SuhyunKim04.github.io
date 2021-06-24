@@ -12,6 +12,10 @@ body {
 .container {
     width: 85%;
     margin: auto;
+    background-image:url('./images/bg-image/scooter.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 400px;
 }
 
 header img {
@@ -21,6 +25,7 @@ header img {
 
 h1 {
     font-size: 3.5rem;
+    margin-top:0;
 }
 
 h2 {
@@ -29,10 +34,7 @@ h2 {
 
 .pageMain {
     margin-bottom: 3rem;
-    background-image:url('./images/bg-image/scooter.svg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 400px;
+    
 }
 
 .welcom {
