@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    background-color: #f7f7ff;
+}
+
+
+.container {
+    width: 85%;
+    margin: auto;
+    /* background-image:url('./images/bg-image/scooter.svg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 600px auto;
+ */
+
+    background:url('./images/bg-image/scooter.svg') no-repeat center bottom/600px auto;
+}
+header img {
+    width: 110px;
+    height: auto;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-top:0;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.pageMain {
+    margin-bottom: 3rem;
+    
+}
+
+.welcom {
+    margin-bottom: 375px;
+}
+
+.apply {
+    background-color:white;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px #999;
+    padding: 0.25rem 1.5rem;
+}
+
+form div {
+    margin-bottom: 0.85rem;
+}
+
+label {
+    display: none;
+}
+
+.terms label {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+input[type="text"],
+input[type="checkbox"] {
+    border-radius: 8px;
+    border: none;
+    background-color: #f7f7ff;
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+.btn {
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.btn-green {
+    background-color: #57eeab;
+    padding: 1rem;
+}
+
+.btn-red {
+    background-color: #ff8400;
+    padding: 0.5rem;
+    color: white;
+}
+
+.status a {
+    text-decoration: none;
+}
+
+.status a:link,
+.status a:visited {
+    color: #ff8400;
+}
+
+.status a:hover,
+.status a:active {
+    color: #900;
+}
+
+footer {
+    background-color: #fffd8c;
+    padding :1rem 0;
+}
+
+footer form {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "hours city city"
+        "calc calc calc";
+}
+
+footer form div:nth-child(1) { grid-area: hours; }
+footer form div:nth-child(2) { grid-area: city; }
+footer form div:nth-child(3) { grid-area: calc; }
+
+.social-links {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+@media (min-width: 556px) {
+    .container {
+        background-size:80%;
+    }
+    
+}
+
+
+
+
+@media (min-width: 700px) {
+    .container {
+        width:auto;
+        margin-left:25px;
+        margin-right:25px;
+        background-size:65%;
+        background-position:center center;
+    }
+
+    .pageMain .welcome {
+        margin-bottom:200px;
+    }
+
+    
+    footer form {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: none;
+        grid-template-areas:
+            "hours city city calc calc";
+            
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        width: 1230px;
+        background-size:45%;
+    }
+
+    .pageMain {
+        
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "welcome . apply";
+    }
+    
+    .welcome {
+        grid-area: welcome;
+    }
+
+    .apply {
+        grid-area: apply;
+    }
+
+    footer .container {
+        display:grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-areas:
+            "earn earn earn . . . social social";
+    }
+
+    .calculate { grid-area: earn; }
+
+    .social-links { 
+        grid-area: social;
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+        justify-content: space-between;
+     }
+
+}
+
+
