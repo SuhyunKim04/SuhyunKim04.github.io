@@ -329,7 +329,7 @@ body {
 }
 
 .who {
-    padding:  8.53vw 11.73vw;
+    padding:  8.53vw 9.6vw 0;
 }
 
 .who h2 {
@@ -343,7 +343,7 @@ body {
 }
 
 .what {
-    padding: 11.73vw;
+    padding: 10.4vw 9.6vw 0;
 }
 
 .what h2 {
@@ -358,7 +358,7 @@ body {
 }
 
 .where {
-    padding: 11.73vw;
+    padding: 9.6vw;
 }
 
 .where h2 {
@@ -372,25 +372,227 @@ body {
     font-size: 16px;
 }
 
-.overlayBox.service {
-     
+.overlayBox.service { 
     background-image:url('./images/services.jpg')
 }
 
 .need {
-    padding :11.73vw;
+    padding :9.6vw;
 }
 
 .need h2 { 
-    font-size: 21px 0 18px 38px;
+    font-size: 32px;
     font-weight: bold;
     color: #3C3B3A;
 }
 
 .need h3 {
-    margin: 21px 0 18px 38px;
+    font-size: 24px;
+    margin: 23px 0 0 0;
     color: #26A682;
 }
+
+.need p {
+    margin: 19px 0 0 0;
+    line-height:2; 
+    font-size: 16px;
+}
+
+.friendsbackground {
+    background-color: #F2F2F2;
+    padding: 32px 0 36px 0;
+}
+
+.subcribe {
+    color: #F2F2F2;
+    
+}
+
+.subcribebackgroud {
+    background-color: #3C3B3A;
+    padding: 27px 35px 0 36px;
+}
+
+.btngreen4 {
+    border-radius: 60px;
+    font-weight: bold;
+    width: 50vw;
+    font-size: 20px;
+    background-color: #26A682;
+    padding: 0.7rem;
+    border: none;
+    color:#F2F2F2;
+    margin: 18px 117px 24px 60px;
+}
+
+.friends {
+    margin: 0 4.53vw 9.6vw 9.3vw;
+
+}
+
+.friends h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #3C3B3A;
+    margin: 0 0 4.26vw 0;
+}
+
+.friends h3 {
+    font-size: 24px;
+    color: #26A682;
+}
+
+.friends p {
+    margin: 12px 0 0 0;
+    line-height:2; 
+    font-size: 16px;
+}
+
+.newyear {
+    margin: 8.3vw 13.8vw
+}
+
+.newyear h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #3C3B3A;
+}
+
+.newyear h3 {
+    font-size: 24px;
+    margin: 15px 0 19px 0;
+    color: #26A682;
+}
+
+.newyear p {
+    line-height:2; 
+    font-size: 15px;
+}
+
+.indoorbackground {
+    background-color: #F2F2F2;
+    padding: 32px 38px 38px 36px;
+}
+
+.indoor h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #3C3B3A;
+    margin: 0 0 21px 0;
+}
+
+.indoor h3 {
+    font-size: 24px;
+    margin: 0 0 11px 0;
+    color: #26A682;
+}
+
+.indoor p {
+    line-height:2; 
+    font-size: 15px;
+}
+
+.special h2 {
+    margin: 42px 57px 51px 59px;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.algonquin img {
+    margin: 0 auto;
+    max-width: 70%;
+    display: block;
+}
+
+.AC img {
+    margin: 0 auto;
+    max-width: 100%;
+    display: block;
+}
+
+.pcl img {
+    margin: 0 auto 51px;
+    max-width: 70%;
+    display: block;
+}
+
+.cibc img {
+    margin: 0 auto 44px;
+    max-width: 50%;
+    display: block;
+}
+
+.from {
+    margin: 9.8vw 9.6vw 4vw;;
+}
+.from img {
+    max-width:100%;
+}
+
+.from h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #3C3B3A;
+    margin: 0 0 37px 0;
+}
+
+.from p {
+    line-height:2; 
+    font-size: 15px;
+    margin: 0 0 0 0;
+}
+
+.apply {
+    background-color:#26A682;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px #999;
+    padding: 0.25rem 1.5rem;
+    color: #F2F2F2;
+}
+
+.apply .placeholder {
+    border-radius: 1rem;
+}
+.btn5 {
+    border-radius: 60px;
+    font-weight: bold;
+    width: 80vw;
+    font-size: 32px;
+    background-color: #3C3B3A;
+    padding: 0.5rem;
+    border: none;
+    color:#F2F2F2;
+    margin: 0 0 20px 0;
+    /* x,y,blur : 0, 10px, 10px, shadow color : #124A3A / 50% */
+    box-shadow:0 10px 10px rgba(18, 74, 58, 0.5);
+}
+
+.ourlocation {
+    margin: 82px 36px 47px 61px;
+}
+
+.ourlocation h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #3C3B3A;
+    margin: 0 0 26px 0;
+}
+
+.ourlocation h3 {
+    font-size: 24px;
+    margin: 0 0 25px 0;
+    color: #3C3B3A;
+}
+
+.ourlocation p {
+    line-height:3; 
+    font-size: 16px;
+    margin: 0 0 0 0;
+}
+
+
+
+
 
 
 @media all and (min-width: 768px) {
