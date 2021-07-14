@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap');
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size:4.27vw;
+}
+
+
+.pageHeader {
+    padding:0 0 21px;
+    text-align:center;
+    background-color:#3C3B3A;
+    color:#F2F2F2;
+}
+
+
+.pageHeader h1 img {
+    width:40vw;
+}
+.pageHeader .gnb  li {
+     /* margin:30px 0; 상하 마진은 둘중의 큰값하나만 적용(마진 겹침현상) */ 
+    margin-bottom:30px; 
+    /* font-size:18px; */
+    /* 18 / 375 * 100 = 4.8 */
+    font-size:4.8vw;
+}  
+.pageHeader .gnb li:last-child {
+    margin-bottom:0;
+}
+
+.pageHeader .gnb a.active {
+    font-weight:bold;
+}
+
+
+.contents {
+    padding:11.73vw; 
+}
+
+.contents h2 {
+    font-size:40px;
+    font-weight:600;
+}
+
+.contents p {
+    font-size:20px;
+    line-height:2; 
+    margin:20px 0;
+}
+
+.contents img {
+    max-width:100%;
+}
+
+.arcList {
+    
+}
+
+.arcList li {
+    outline:1px solid red;
+}
+
+/*
+
+
+.Simon {
+    background-color: #3C3B3A;
+    color:#F2F2F2;
+    text-align: center;
+    padding: 20px 0 50px 0;
+}
+
+.Simon h4 {
+    padding: 20px 0;
+}
+
+.Simon p {
+    text-align: center;
+    
+
+}
+.school img {
+    width: 50vw;
+    
+}
+
+.Simon img {
+    width: 30vw;
+    border-radius: 70%;
+}
+
+.Discover img {
+    width: 150vw;
+}
+.pageHeader img {
+    width: 25vw;
+} 
+
+.btngreen {
+    border-radius: 60px;
+    font-weight: bold;
+    width: 40%;
+    font-size: 20px;
+    background-color: #26A682;
+    padding: 1rem;
+    border: none;
+    color:#F2F2F2;
+    box-shadow: 1rem;
+    
+}
+
+.footer follow us {
+    background-color: #3C3B3A;
+    padding: 30px 40px;
+}
+
+#home h1 h2 h3 h4 p{
+    color:#3C3B3A;
+}
+
+#about h1 h2 h3 h4 p{
+    color: #3C3B3A;
+}
+
+.wrap p {
+    padding: 20px 0 0 0;
+    text-align: left;
+}
+
+.construction img{
+    width :80vw;
+    align-items: center;
+}
+
+.about img {
+    width: 100vw;
+}
+*/

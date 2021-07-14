@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <style>
+        .box {
+            width:500px;
+            height:300px;
+            outline:1px solid #000;
+            margin:50px auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;  
+        }
+
+        .a {
+            background-color:coral; 
+            width: 200px;
+            flex-shrink: 2;
+            /* flex:0 2 auto;*/
+        }
+
+        .b {
+            background-color:dodgerblue;  
+            width: 200px;
+            flex-shrink: 0;
+            /* flex:0 0 auto */
+        }
+
+        .c {
+            background-color:goldenrod; 
+            width: 200px;
+            flex-shrink: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"> 
+        <div class="item a">A</div>
+        <div class="item b">B</div>
+        <div class="item c">C</div>
+    </div>
+</body>
+</html>

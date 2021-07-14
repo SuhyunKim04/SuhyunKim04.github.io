@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        .wrap {
+            width:300px;
+            /* outline:1px solid black;  */
+            margin:50px auto;
+            height:200px;
+            color:#fff;
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            align-items:stretch;
+            flex-wrap:wrap;
+        }
+
+        .wrap div {
+            width:calc(50% - 40px);
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .wrap p {
+            margin-top: 10px;
+        }
+        .item1 { 
+            background:dodgerblue; 
+
+            /*
+            flex-grow:0;
+            flex-shrink:1;
+            */
+        }
+        .item2 { 
+            background:coral; 
+        }
+        .item3 { 
+            background:olivedrab; 
+        } 
+        .item4 { 
+            background:goldenrod; 
+        } 
+
+        /* .wrap * {
+            display:inline-block;
+            width:25%;
+            height:100px;
+        }
+  */
+
+  .overlayBox {
+      height:200px;
+      display:flex;
+      justify-content:center; 
+      background:no-repeat center center/cover;
+  }
+
+  .overlayBox h2 {
+      flex-grow:1;
+      color:#fff;
+      background-color:rgba(12, 71, 12, 1);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:40px;
+  }
+
+  .overlayBox.home {
+      background-image:url('./images/school.jpg')
+  }
+  .overlayBox.about {
+      background-image:url('./images/fitness.jpg')
+  }
+  .overlayBox.service {
+     
+      background-image:url('./images/services.jpg')
+  }
+  
+  .overlayBox.service h2 {
+    background-color:rgba(255,0,0,0.5);
+  }
+
+    </style>
+</head>
+<body>
+    <div class="overlayBox about">
+        <h2>ABOUT</h2> 
+    </div>
+    <div class="overlayBox service">
+        <h2>SERVICE</h2> 
+    </div>
+    <div class="overlayBox home">
+        
+    </div>
+     
+    <div class="wrap">
+        <div class="item1">
+            <img src="./images/home_ico1.png" alt="">
+            <p>HELLO</p> 
+        </div>
+        <div class="item2">B</div>
+        <div class="item3">C</div> 
+        <div class="item4">D</div> 
+    </div>
+
+      <a href="#">
+            <p>HELLO</p>
+            <div class="thumb">
+                <img src="" alt="">
+            </div>
+            <strong>description</strong>
+        </a>
+
+    <img src="./images/fitness.jpg" alt="" style="width:30%;">
+    <img src="./images/fitness.jpg" alt="" style="width:30%;">
+    <img src="./images/fitness.jpg" alt="" style="width:30%;">
+    <img src="./images/fitness.jpg" alt="" style="width:30%;">
+    <hr>
+    <h1><span>Hello</span> World</h1>
+    모든 블럭 요소는 인라인 요소를 컨텐츠로 포함할수 있다
+    <hr>
+    <span><h1>Hello</h1>world</span> wrong
+    어떠한 인라인 요소도 컨텐츠요소로 블럭요소를 포함할수 없다
+    a 테그 제외
+    <hr>
+    <h1>Block level elements</h1>
+    <p>header,footer,section,aside, article, 
+        nav, figure, figcaption, blockquote, 
+        heading tags, p, div, form, ul, ol, li,
+        dl,dt,dd</p>
+
+    <h1>Inline level elements</h1>
+    <p>strong,em,b,i,span,time, mark, q, a ..</p>
+    - No size, No top,bottom paddding, No top,bottom margin
+    
+    <h1>Inline-block level elements</h1>
+    <p>
+        img, input, select, button...
+    </p>
+</body>
+</html>

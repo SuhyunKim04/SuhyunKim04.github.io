@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <style>
+        .box {
+            width:500px;  
+            height:300px;
+            outline:1px solid #000;
+            margin:50px auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .box2 {
+            width:500px;
+            outline:1px solid #000;
+            margin:50px auto;  
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+        }
+
+        .a {
+            background-color:coral; 
+            width: 50%;
+        }
+
+        .b {
+            background-color:dodgerblue;  
+            width: 50%
+        }
+
+        .c {
+            background-color:goldenrod; 
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .g {
+            background-color:skyblue; 
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:200px;
+        }
+
+        .d {
+            background-color:lawngreen;
+            width: calc(100% / 3);
+        }
+
+        .e {
+            background-color:lightpink;
+            width: calc(100% / 3);
+        }
+
+        .f {
+            background-color:lightsalmon;
+            width: calc(100% / 3);
+        }
+        ul {
+            outline:1px solid #000;
+            display: flex;
+            height:80%;
+            align-items:center;
+            width:50%;
+        }
+
+        li:nth-child(odd) {
+            background:beige;
+            flex-grow: 1;
+        }
+        li:nth-child(even) {
+            background:pink;
+            flex-grow: 1;
+        }
+
+        p {
+            background:yellow;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="box2">
+        <div class="a">HELLO</div>
+        <div class="b">WORLD</div>
+        <div class="c">
+            <p>Paragraph</p> 
+        </div> 
+        <div class="g"> 
+            <ul>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li> 
+            </ul>
+        </div> 
+        <div class="d">WEB</div> 
+        <div class="e">WEB</div> 
+        <div class="f">WEB</div> 
+    </div>
+    <div class="box"> 
+        <h2>Hello <br>
+            WORLD</h2>
+    </div>
+</body>
+</html>

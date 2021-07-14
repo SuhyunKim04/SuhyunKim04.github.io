@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SHADOW</title>
+    <link rel="stylesheet" href="./reset.css">
+    <style>
+        .box {
+            background-color:olivedrab;
+            color:olive;
+            width:200px;
+            margin:100px auto;
+            border-radius:50px;
+            text-align:center;
+            padding:20px 0;
+            font-family:'arial',sans-serif;
+            font-weight:900;
+
+            /* box-shadow:x  y  blur spread color */
+            box-shadow:0 0 10px rgba(36, 85, 3, 0.9), 
+                        0 0 10px rgba(0,0,0,0.5) inset,
+                        0 0 20px red inset;
+            text-shadow:
+            1px 1px 0 rgba(255,255,255,0.5),
+            -1px -1px 0 rgba(0,0,0,0.5);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        <h1>HELLO</h1>
+    </div> 
+</body>
+</html>
