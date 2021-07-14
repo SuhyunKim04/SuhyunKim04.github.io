@@ -595,6 +595,8 @@ body {
 
 
 
+
+
 @media all and (min-width: 768px) {
     .arcList {
         flex-wrap:nowrap;
@@ -614,5 +616,5 @@ body {
 }
 
 @media all and (min-width:1025px) {
-    body {background:red;}
+    
 }
