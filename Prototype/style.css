@@ -6,7 +6,7 @@ body {
     font-size:4.27vw;
 }
 
-
+/* vw claculation example 18/375*100*/
 .pageHeader {
     background-color:#3C3B3A;
     color:#F2F2F2;
@@ -21,6 +21,7 @@ body {
     display: block;
     padding: 0;
 }
+
 
 .pageHeader .gnb  li {
     margin-bottom:30px;
@@ -127,7 +128,6 @@ body {
 
 .school2 {
     height: 200px;
-    background-color: red;
     background-image: url("./images/school.jpg");
     background-repeat:no-repeat;
     background-size: cover;
@@ -183,7 +183,6 @@ body {
 
 .entertainment {
         height: 200px;
-        background-color: red;
         background-image: url("./images/entertainment.jpg");
         background-repeat:no-repeat;
         background-size: cover;
@@ -615,6 +614,6 @@ body {
     }
 }
 
-@media all and (min-width:1025px) {
+@media all and (min-width:1020px) {
     
 }
