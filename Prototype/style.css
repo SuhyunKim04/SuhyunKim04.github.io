@@ -607,6 +607,34 @@ body {
     }
 }
 
+.btngreen {
+    width: 39vw;
+    margin: 0 0 0 150px;
+}
+
+.btngreen1 {
+    width: 29vw;
+    font-size: 3.5vw;
+}
+
+#about body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.3vw;
+}
+
+.who {
+    padding:  8.53vw 30vw 0;
+}
+
+.what {
+    padding:  8.53vw 30vw 0;
+}
+
+.where {
+    padding:  8.53vw 30vw 6.64vw;
+}
+
+
 @media all and (min-width:1020px) {
     
 
